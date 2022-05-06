@@ -1,46 +1,38 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Steam(스팀) 리뉴얼
 
-In the project directory, you can run:
+### 🔗 Link
 
-### `npm start`
+- **Site LINK (HTML version)**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[STEAM PORTFOLIO](http://devjeenie.dothome.co.kr/steam/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Code (HTML)**
 
-### `npm test`
+[GitHub - dev-Jeenie/01_STEAM](https://github.com/dev-Jeenie/01_STEAM)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Code (React Native)**
 
-### `npm run build`
+[GitHub - dev-Jeenie/01_STEAM_REACT](https://github.com/dev-Jeenie/01_STEAM_REACT)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 1. 프로젝트 소개
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **🔔  기능 및 기획**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 세계 최대의 게임 플랫폼 STEAM의 웹페이지 리뉴얼
+- UI / UX 개선에 목적
 
-### `npm run eject`
+### **👥  구성원**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- 총 1명 (Junior Front-end 1명)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **⚙️  기술스택**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- 언어 : `HTML`, `CSS`, `Java Script`, `Type Script`
+- 사용 라이브러리 : `React`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### **🙋🏻‍♀️  목표**
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 기능적인 라이브러리 사용하지 않고 모든 기능 구현해보기
+- HTML 버전과 최대한 동일하게 만들기
