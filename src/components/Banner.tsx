@@ -39,20 +39,6 @@ const Banner = ({
           {children}
         </div>
       </div>
-
-      {/* <div className="careers_wrapper outer_margin">
-        <div className="careers_bg">
-          <div className="careers container">
-            <h3 className="pic_contents-tt">We create Worlds</h3>
-            <p className="pic_contents-desription">
-              Learn more about Careers at STEAM
-            </p>
-            <span className="btn">
-              <Link to="#">Explore Careers</Link>
-            </span>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };

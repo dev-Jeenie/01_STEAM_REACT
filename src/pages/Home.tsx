@@ -6,12 +6,14 @@ import DescriptionSlide, {
   descriptionSlideType,
 } from "../components/DescriptionSlide";
 import Footer from "../components/Footer";
+import MainBanner from "../components/MainBanner";
 import Section from "../components/Section";
 import Slides, { slideType } from "../components/Slides";
 import VideoCard, { videoCardType } from "../components/VideoCard";
 
 const Home = () => {
   const mainMenu = document.querySelector(".main_menu") as HTMLParagraphElement;
+
   // const menuOST = mainMenu.offsetTop as number;
   //   // const [scrollAmt, setScrollAmt] = React.useState<number>(window.pageYOffset);
   //   // console.log(scrollAmt);
@@ -373,19 +375,6 @@ const Home = () => {
 
   return (
     <div className="App">
-      {/* <header className="App-header">
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header> */}
       <header>
         <div className="top_menu">
           <div className="container clearfix">
@@ -470,242 +459,7 @@ const Home = () => {
           </div>
         </nav>
       </header>
-      <div className="banner">
-        <div className="slide_wrapper">
-          <div className="bn_slides clearfix">
-            <div className="bn_slide slide1">
-              <div className="contents_wrapper">
-                <div className="contents_left">
-                  <h3 className="contents-tt">EVE Online</h3>
-                  <p className="content-description">
-                    Become a Cyberpunk and write a new legend about Night City.
-                  </p>
-
-                  <div className="buttons">
-                    <span>
-                      <Link to="#">
-                        <i className="far fa-thumbs-up"></i>
-                      </Link>
-                    </span>
-                    <span>
-                      <Link to="#">
-                        <i className="far fa-thumbs-down"></i>
-                      </Link>
-                    </span>
-                  </div>
-                </div>
-                <div className="contents_right">
-                  <h4 className="contents-smalltt">Mostly Positive</h4>
-                  <p>
-                    <Link to="#" className="keywords btn_bg">
-                      Universe
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Dark
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Pvp
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Adventure
-                    </Link>
-                  </p>
-                </div>
-              </div>
-              {/* <!--//contents_wrapper--> */}
-            </div>
-            {/* <!--//slide--> */}
-
-            <div className="bn_slide slide2">
-              <div className="contents_wrapper">
-                <div className="contents_left">
-                  <h3 className="contents-tt">CYBERPUNK 2077</h3>
-                  <p className="content-description">
-                    Become a Cyberpunk and write a new legend about Night City.
-                  </p>
-
-                  <div className="buttons">
-                    <span>
-                      <Link to="#">
-                        <i className="far fa-thumbs-up"></i>
-                      </Link>
-                    </span>
-                    <span>
-                      <Link to="#">
-                        <i className="far fa-thumbs-down"></i>
-                      </Link>
-                    </span>
-                  </div>
-                </div>
-                <div className="contents_right">
-                  <h4 className="contents-smalltt">Mostly Positive</h4>
-                  <p>
-                    <Link to="#" className="keywords btn_bg">
-                      Universe
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Dark
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Pvp
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Adventure
-                    </Link>
-                  </p>
-                </div>
-              </div>
-              {/* <!--//contents_wrapper--> */}
-            </div>
-            {/* <!--//slide--> */}
-
-            <div className="bn_slide slide3">
-              <div className="contents_wrapper">
-                <div className="contents_left">
-                  <h3 className="contents-tt"> GRAND THEFT AUTO 5</h3>
-                  <p className="content-description">
-                    Become a Cyberpunk and write a new legend about Night City.
-                  </p>
-
-                  <div className="buttons">
-                    <span>
-                      <Link to="#">
-                        <i className="far fa-thumbs-up"></i>
-                      </Link>
-                    </span>
-                    <span>
-                      <Link to="#">
-                        <i className="far fa-thumbs-down"></i>
-                      </Link>
-                    </span>
-                  </div>
-                </div>
-                <div className="contents_right">
-                  <h4 className="contents-smalltt">Mostly Positive</h4>
-                  <p>
-                    <Link to="#" className="keywords btn_bg">
-                      Universe
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Dark
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Pvp
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Adventure
-                    </Link>
-                  </p>
-                </div>
-              </div>
-              {/* <!--//contents_wrapper--> */}
-            </div>
-            {/* <!--//slide--> */}
-
-            <div className="bn_slide slide4">
-              <div className="contents_wrapper">
-                <div className="contents_left">
-                  <h3 className="contents-tt">NFS HEAT</h3>
-                  <p className="content-description">
-                    Become a Cyberpunk and write a new legend about Night City.
-                  </p>
-
-                  <div className="buttons">
-                    <span>
-                      <Link to="#">
-                        <i className="far fa-thumbs-up"></i>
-                      </Link>
-                    </span>
-                    <span>
-                      <Link to="#">
-                        <i className="far fa-thumbs-down"></i>
-                      </Link>
-                    </span>
-                  </div>
-                </div>
-                <div className="contents_right">
-                  <h4 className="contents-smalltt">Mostly Positive</h4>
-                  <p>
-                    <Link to="#" className="keywords btn_bg">
-                      Universe
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Dark
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Pvp
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Adventure
-                    </Link>
-                  </p>
-                </div>
-              </div>
-              {/* <!--//contents_wrapper--> */}
-            </div>
-            {/* <!--//slide--> */}
-
-            <div className="bn_slide slide5">
-              <div className="contents_wrapper">
-                <div className="contents_left">
-                  <h3 className="contents-tt">SID MEIER'S CIVILIZATION VI</h3>
-                  <p className="content-description">
-                    Become a Cyberpunk and write a new legend about Night City.
-                  </p>
-
-                  <div className="buttons">
-                    <span>
-                      <Link to="#">
-                        <i className="far fa-thumbs-up"></i>
-                      </Link>
-                    </span>
-                    <span>
-                      <Link to="#">
-                        <i className="far fa-thumbs-down"></i>
-                      </Link>
-                    </span>
-                  </div>
-                </div>
-                <div className="contents_right">
-                  <h4 className="contents-smalltt">Mostly Positive</h4>
-                  <p>
-                    <Link to="#" className="keywords btn_bg">
-                      Universe
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Dark
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Pvp
-                    </Link>
-                    <Link to="#" className="keywords btn_bg">
-                      Adventure
-                    </Link>
-                  </p>
-                </div>
-              </div>
-              {/* <!--//contents_wrapper--> */}
-            </div>
-            {/* <!--//slide--> */}
-          </div>
-          {/* <!--//slides--> */}
-
-          <p className="controls">
-            <span className="prev">
-              <i className="fas fa-chevron-left"></i>
-            </span>
-            <span className="next">
-              <i className="fas fa-chevron-right"></i>
-            </span>
-          </p>
-        </div>
-        {/* <!--//slide_wrapper--> */}
-        <p className="pager">
-          {/* <!-- <span>0</span>
-          <span>1</span>
-          <span>2</span> --> */}
-        </p>
-      </div>
+      <MainBanner />
       {/* <!--//banner--> */}
 
       <main>
@@ -784,7 +538,7 @@ const Home = () => {
           onClick={() => {}}
           scroll={ScrollY}
           className={`careers_wrapper outer_margin ${
-            ScrollY > 100 && "active"
+            ScrollY > 1100 && "active"
           }`}
         />
       </main>

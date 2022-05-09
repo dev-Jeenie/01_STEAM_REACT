@@ -1,0 +1,60 @@
+import React from "react";
+
+// const HomeData = [
+//   {
+//     image: "/img/redDeadRedemption.png",
+//     title: "Red Dead Redemption",
+//     produce: "Rockstar Games",
+//     price: "32.20",
+//     url: "https://cdn.akamai.steamstatic.com/steam/apps/256811949/movie480_vp9.webm?t=1606871607",
+//     tags: ["Horror", "PvP", "Adventure"],
+//   },
+//   {
+//     image: "/img/alienIsolation.jpg",
+//     title: "Alien - Isolation",
+//     produce: "Rockstar Games",
+//     price: "32.20",
+//     tags: ["Horror", "PvP", "Adventure"],
+//     url: "https://cdn.akamai.steamstatic.com/steam/apps/256686491/microtrailer.webm?t=1496661560&v=2",
+//   },
+//   {
+//     image: "/img/assasinCreedValhalla.jpg",
+//     title: "Assasin Creed - Valhalla",
+//     produce: "Rockstar Games",
+//     price: "32.20",
+//     tags: ["Horror", "PvP", "Adventure"],
+//     url: "https://cdn.akamai.steamstatic.com/steam/apps/256658589/microtrailer.webm?t=1528288687&v=2",
+//   },
+//   {
+//     image: "/img/destiny2.jpg",
+//     title: "Destiny 2",
+//     produce: "Rockstar Games",
+//     price: "32.20",
+//     url: "https://cdn.akamai.steamstatic.com/steam/apps/256809333/movie480_vp9.webm?t=1612891968",
+//     tags: ["Horror", "PvP", "Adventure"],
+//   },
+//   {
+//     image: "/img/BorderlandsTheHandsomeCollection.jpg",
+//     title: "BORDERLANDS",
+//     produce: "Rockstar Games",
+//     price: "32.20",
+//     tags: ["Horror", "PvP", "Adventure"],
+//     url: "https://cdn.akamai.steamstatic.com/steam/apps/2029699/movie480.webm?t=1447359143",
+//   },
+//   {
+//     image: "/img/fortnite.jpg",
+//     title: "FORTNITE",
+//     produce: "Rockstar Games",
+//     price: "32.20",
+//     tags: ["Horror", "PvP", "Adventure"],
+//     url: "https://cdn.akamai.steamstatic.com/steam/apps/256802095/microtrailer.webm?t=1600866008&v=2",
+//   },
+//   {
+//     image: "/img/warframe.png",
+//     title: "WARFRAME",
+//     produce: "Rockstar Games",
+//     price: "32.20",
+//     tags: ["Horror", "PvP", "Adventure"],
+//     url: "https://cdn.akamai.steamstatic.com/steam/apps/256788251/movie480.mp4?t=1591656404",
+//   },
+// ];
